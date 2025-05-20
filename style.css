@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+:root{
+    --primary-color: #236611;
+    --secundary-color: #000000;
+    --text-color: #000000;
+    --background-color: #000000;
+    --button-hover: #000000;
+    --font-body:  "Shadows Into Light sans", serif;
+    --font-titulo: "ancizar Sans", serif;
+}
+
+/* reset */ 
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+font-family: var(--font-body);
+}
+/* corpoda pagina */
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h3{
+   margin-top: 25px;
+}
+p{
+    margin-top: 20px;
+}
+img{
+    max-width: 90%;
+}
+/* cabeçalho */
+header{
+    background: var(--background-color);
+    color: wheat;
+    text-align: center;
+    padding: 22px;
+}
